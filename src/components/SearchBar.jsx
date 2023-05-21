@@ -9,7 +9,7 @@ export function SearchBar({onSubmit}) {
 	const handleFormSubmit = (event) => {
 		event.preventDefault()
 		//console.log('Submit');
-		onSubmit('cars')
+		onSubmit(term)
 		
 	}
 
