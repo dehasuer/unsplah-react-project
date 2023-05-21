@@ -1,4 +1,4 @@
-import './App.css'
+
 import {SearchBar} from "./components/SearchBar.jsx";
 import searchImages from "./api.js";
 import React from 'react';
