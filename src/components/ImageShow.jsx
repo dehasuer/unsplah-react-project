@@ -1,5 +1,9 @@
-export const ImageShow = () => {
+export const ImageShow = ({image}) => {
 	return (
-		<div>ImageShow</div>
+		<div>
+			<img src={image.urls.small} alt={image.alt_descriotion} />
+		</div>
 	)
 }
+
+export default ImageShow;
